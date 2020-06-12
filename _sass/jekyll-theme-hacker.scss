@@ -32,6 +32,11 @@ body {
   margin: 0 auto;
 }
 
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 section {
   display: block;
   margin: 0 0 20px 0;
