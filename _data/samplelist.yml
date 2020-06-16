@@ -16,6 +16,6 @@ category:
       - page: Widget 1
         url: /widget1.html
   - title: git
-      subfolderitems:
+    subfolderitems:
       - page: git版本控制
         url: /git版本控制.html
