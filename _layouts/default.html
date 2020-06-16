@@ -31,13 +31,14 @@
 <div class="container">
     <aside class="category" style="float: left;margin-left: -300px;width: 300px;padding: 0 20px;">
         <div style="font-size: 18px;font-weight: bold;margin-bottom: 20px;">分类</div>
-        <div class="navigation">
-            <li><a>webpack相关</a></li>
-            <li><a>angular相关</a></li>
-            <li><a>vue相关</a></li>
-            <li><a>react相关</a></li>
-            <li><a>javascript基础篇</a></li>
-        </div>
+        {% for item in site.data.samplelist.category %}
+        <h3>{{ item.title }}</h3>
+        <ul>
+            {% for entry in item.subfolderitems %}
+            <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+            {% endfor %}
+        </ul>
+        {% endfor %}
     </aside>
     <section id="main_content">
         {{ content }}

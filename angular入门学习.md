@@ -1,6 +1,6 @@
-### 第一章 AngularJs
-    
-  简介：
+### 第一章: AngularJs
+简介：
+
   AngularJs是谷歌发布的一个前段框架
   
   1 AngularJs程序架构（组件，指令，服务可以构成一个模块）
@@ -159,4 +159,28 @@
          <a [routerLink]="['/product']">商品详情页</a>
          <router-outlet></router-outlet>
      ```
+    我们使用[routerLink]指令来进行路由的跳转，这里我们写路由的地址时为什么要加上['/']这种形式呢？原因很简单，我们经常会遇到这种情况，在路由的地址中需要加上参数信息的链接
+    通过这种形式，我们可以很轻松的配置参数信息。当然如果在没有路由参数的情况下，我们直接写上路由地址的字符串也是ok的。至此，我们就完成了一个简单的路由跳转的代码。运行`npm start`
+    启动angualr项目，在浏览器中点击链接可以发现，内容已经可以切换了。
+    ```
+       <div align='center'>
+               <img src="./assets/images/angular/router-result.png">
+        </div>        
+               
+        <div align='center'>
+               <img src="./assets/images/angular/router-result.png">
+        </div>
+    ```
+     
+    至此，我们通过angular中路由指令完成了一个简单的路由跳转功能，接下来我们看一下如何通过在控制器中使用Router对象来控制路由的跳转。
+    首先我们需要在html中添加一个按钮，添加这个按钮的目的是，点击按钮时能够触发控制器中的事件处理函数，然后在事件处理函数中做路由跳转的操作。
+           
+     ```
+             <a [routerLink]="['/']">主页</a>
+             <a [routerLink]="['/product']">商品详情页</a>
+             <button (click)="toProductPage()">商品内容</button>
+             <router-outlet></router-outlet>
+     ```  
+    在html代码中我们看到了一个新的指令(click),通过（）+ 事件名的形式我们可以很轻松的绑定事件。关于事件绑定的内容，将会在后续的章节中详细介绍。
+   接下来，我们修改在app-component.ts中的代码如下：
   
