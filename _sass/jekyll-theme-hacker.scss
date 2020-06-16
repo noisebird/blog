@@ -29,7 +29,12 @@ body {
 .container {
   width: 90%;
   max-width: $container-max-width;
-  margin: 0 auto;
+  padding-left: 300px;
+}
+
+.navigation li {
+  height: 32px;
+  line-height: 32px;
 }
 
 .header-container {
