@@ -17,17 +17,6 @@
             <h1>darrewang 个人博客</h1>
         </a>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-
-        <aside class="category" style="float: left;margin-left: -300px;width: 300px;padding: 0 20px;">
-            <div style="font-size: 18px;font-weight: bold;margin-bottom: 20px;">分类</div>
-            <div class="navigation">
-                <li><a>webpack相关</a></li>
-                <li><a>angular相关</a></li>
-                <li><a>vue相关</a></li>
-                <li><a>react相关</a></li>
-                <li><a>javascript基础篇</a></li>
-            </div>
-        </aside>
         <section id="downloads">
             {% if site.show_downloads %}
             <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
@@ -40,6 +29,16 @@
 </header>
 
 <div class="container">
+    <aside class="category" style="float: left;margin-left: -300px;width: 300px;padding: 0 20px;">
+        <div style="font-size: 18px;font-weight: bold;margin-bottom: 20px;">分类</div>
+        <div class="navigation">
+            <li><a>webpack相关</a></li>
+            <li><a>angular相关</a></li>
+            <li><a>vue相关</a></li>
+            <li><a>react相关</a></li>
+            <li><a>javascript基础篇</a></li>
+        </div>
+    </aside>
     <section id="main_content">
         {{ content }}
     </section>
