@@ -5,7 +5,7 @@
 1. AngularJs程序架构（组件，指令，服务可以构成一个模块）
 
 <div align='center'>
-   <img src='./assets/images/AngularJs程序架构.png'>
+   <img src='./assets/images/angular/AngularJs程序架构.png'>
 </div>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AngualrJs运行至少需要一个模块，一个组件。
 
@@ -533,7 +533,7 @@
     
 3. 事件绑定
      <div align='center'>
-          <img src='./assets/images/event.png'>
+          <img src='./assets/images/angular/event.png'>
        </div>
 4. 属性绑定
     
@@ -573,7 +573,7 @@
    
    DOM属性绑定的过程：
     <div align='center'>
-        <img src='./assets/images/dom-bind.png'>
+        <img src='./assets/images/angular/dom-bind.png'>
     </div>
 5. HTML属性绑定
     基本HTMl属性绑定
@@ -612,7 +612,7 @@
         ``` 
        HTML属性绑定的过程：
             <div align='center'>
-                <img src='./assets/images/dom-bind.png'>
+                <img src='./assets/images/angular/dom-bind.png'>
             </div>
        绑定html属性能够生效是因为改变了HTML属性，html属性变化后触发了dom属性的变化。所以并不是因为angular的
        数据绑定使得dom值发生改变的
@@ -773,7 +773,7 @@
     没子组件进行通信，最后我们会学习组件生命周期以及angualr的变化发现机制。
     
     <div align='center'>
-       <img src='./assets/images/component.png'>
+       <img src='./assets/images/angular/component.png'>
     </div>
 2. 学习内容
 + 组件的输入输出属性
