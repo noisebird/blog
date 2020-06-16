@@ -18,4 +18,4 @@ category:
   - title: git
     subfolderitems:
       - page: git版本控制
-        url: /git版本控制.html
+        url: /blog/git版本控制.html

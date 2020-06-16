@@ -42,6 +42,10 @@ body {
   justify-content: space-between;
 }
 
+.category ul li {
+  list-style: none;
+}
+
 section {
   display: block;
   margin: 0 0 20px 0;
@@ -159,7 +163,6 @@ dt {
 }
 
 ul li {
-  list-style-image:url('../images/bullet.png');
 }
 
 blockquote {
@@ -273,5 +276,9 @@ a {
 }
 
 #a-title {
+  text-decoration: none;
+}
+
+a {
   text-decoration: none;
 }
