@@ -3,6 +3,10 @@ category:
     subfolderitems:
       - page: Thing 1
         url: /thing1.html
+  - title: JS基础
+    subfolderitems:
+      - page: Widget 1
+        url: /widget1.html
   - title: angular
     subfolderitems:
       - page: Piece 1
@@ -11,10 +15,6 @@ category:
         url: /piece2.html
       - page: Piece 3
         url: /piece3.html
-  - title: JS基础
-    subfolderitems:
-      - page: Widget 1
-        url: /widget1.html
   - title: git
     subfolderitems:
       - page: git版本控制
