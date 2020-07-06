@@ -6,7 +6,7 @@
     - [ ] JavaScript的解析过程
     - [ ] JavaScript 的数据类型有哪些？以及值如何存储的
     - [ ] 如何判断Js中的数据类型（4中方法）
-    - [ ] JavaScript数组中常用的操作
+    - [ ] [JavaScript数组中常用的操作](https://noisebird.github.io/blog/Js中数组的操作)
     - [ ] JavaScript字符串中常用的操作
 - [ ] ES
 - [ ] html篇
